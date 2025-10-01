@@ -29,7 +29,7 @@ const { format } = require ('date-fns');
 // read the docs... 
 console.log (format(new Date(), 'yyyy-MM-dd\tHH:mm:ss'));
 
-// --save-dev: -D save the package as [dev-dependency].
+// --save-dev/-D save the package as [dev-dependency].
 // npm i nodemon -D
 
 //? work with scripts:
