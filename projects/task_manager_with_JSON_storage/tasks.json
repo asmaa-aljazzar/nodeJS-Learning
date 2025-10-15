@@ -1,37 +1,17 @@
 [
   {
     "id": 1,
-    "task": "First Task",
+    "task": "read_write_easy",
     "status": "Done"
   },
   {
     "id": 2,
-    "task": "First Task",
+    "task": "read_write_medium",
     "status": "Done"
   },
   {
     "id": 3,
-    "task": "First Task",
-    "status": "Done"
-  },
-  {
-    "id": 4,
-    "task": "First Task",
-    "status": "Done"
-  },
-  {
-    "id": 5,
-    "task": "test",
-    "status": "pending"
-  },
-  {
-    "id": 6,
-    "task": "test",
-    "status": "pending"
-  },
-  {
-    "id": 7,
-    "task": "hello",
-    "status": "Done"
+    "task": "read_write_hard",
+    "status": "in progress"
   }
 ]

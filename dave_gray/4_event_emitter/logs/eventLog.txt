@@ -1,5 +1,0 @@
-2025-10-01	 09:29:14	 fdc434d0-0b8b-4cff-8baf-276c4dd687c4	log event emitted!
-2025-10-01	 09:29:24	 15f51da5-4e1e-4ebc-afee-f0eeeb1945f7	log event emitted!
-2025-10-01	 09:29:30	 280e1dfa-a93a-4dbf-bbab-17a77eb47312	log event emitted!
-2025-10-01	 09:31:48	 80bf2553-774a-4d37-8668-cf51ecce2397	log event emitted!
-2025-10-01	 09:32:23	 df82bbf5-bc5c-41b7-a40d-24767a8a4107	log event emitted!

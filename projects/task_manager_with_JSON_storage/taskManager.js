@@ -37,3 +37,20 @@ exports.markDone = async (id) => {
 		console.log (err);
 	}
 }
+
+exports.markInProgress = async (id) => {
+	try {
+		const tasksArr = await readTasks ();
+		// if id passed as a string it must convert into number.
+		const idIndex = tasksArr.findIndex((t) => t.id === Number(id));
+		if (idIndex == -1)
+		{
+			console.log (`Task ${id} not found!`);
+			return;
+		}
+		tasksArr[idIndex].status = "in progress";
+		await writeTasks (tasksArr);
+	} catch (err){
+		console.log (err);
+	}
+}
